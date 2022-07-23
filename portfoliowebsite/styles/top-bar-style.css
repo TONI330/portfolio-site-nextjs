@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    color: white;
+    background-color: #1a1a1a;  
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+.top-bar{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    font-family: Arial;
+    background-color: rgb(26, 26, 26);  
+
+}
+
+.top-bar > .left-side > div{
+    margin-right: 20px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    display: inline;
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid #8a8a8a;
+}
+
+.nav-link-wrapper a:hover {
+    color: white;
+}
+
+.right-side {
+    display: inline;
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.right-side a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.right-side:hover {
+    color: white;
+}
+.right-side > .top-bar-about {
+    display: inline;
+    font-weight: 100;
+    font-size: 1em;
+
+}
+.right-side > .top-bar-name {
+    color: white;
+    font-size: 1.3em;
+}

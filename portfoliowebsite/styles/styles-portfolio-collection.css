@@ -1,0 +1,21 @@
+.main-body {
+    margin: 2%;
+    padding: 2%;
+    background-color: #1d1d1d;
+}
+.main-body > h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    place-items: center;
+}
+.images > img {
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

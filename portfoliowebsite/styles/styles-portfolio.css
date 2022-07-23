@@ -1,0 +1,36 @@
+.main-body {
+    margin: 2%;
+    padding: 2%;
+    background-color: #1d1d1d;
+}
+
+.body-page-info {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.body-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    gap: 2rem;
+    place-content: center;
+}
+.body-grid > a {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body-grid > a > h1 {
+    margin-top: 50%;
+    font-family: monospace;
+    text-transform: uppercase;
+    color: white;
+}
+.grid-projects {
+    background-image: url(/images/portfolio5.jpg);
+    
+}
+.grid-cgicollection {
+    background-image: url(/images/grassfieldbynight_cropped.png);
+}
